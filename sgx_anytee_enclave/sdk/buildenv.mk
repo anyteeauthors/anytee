@@ -1,0 +1,9 @@
+CROSS_COMPILE = aarch64-none-elf-
+CC = $(CROSS_COMPILE)gcc
+CXX = $(CROSS_COMPILE)gcc
+AR = $(CROSS_COMPILE)ar
+RM = rm
+CP = cp
+MKDIR = mkdir
+CPPFLAGS = -nostdlib -nodefaultlibs
+CFLAGS = -nostdlib -nodefaultlibs

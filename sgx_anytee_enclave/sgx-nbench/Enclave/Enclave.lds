@@ -1,0 +1,10 @@
+enclave.so
+{
+    global:
+        g_global_data_sim;
+        g_global_data;
+        g_global_data_hyper;
+        enclave_entry;
+    local:
+        *;
+};
